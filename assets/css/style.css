@@ -185,3 +185,70 @@ footer {
     width: 100%;
     height: 50px;
 }
+
+@media only screen and (max-width: 640px) {
+    .headerContent {
+        display: block;
+        width: 100%;
+        max-width: 640px;
+        /* padding-left: 0;
+        padding-right: 0; */
+    }
+
+    .header {
+        margin: 0;
+        margin-bottom: 100px;
+    }
+
+    .name, .navBar {
+        float: none;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        margin: 0;
+        max-width: 640px;
+    }
+
+    .name {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .navBar {
+        background-color: #ffffff;
+        padding-bottom: 10px;
+    }
+
+    .navLink {
+        margin: 0;
+    }
+
+    .main, input {
+        width: 100%;
+        max-width: 640px;
+    }
+/* 
+    .main {
+        overflow: none;
+    }
+
+    .main, .mainContent, .headerContent, .name, .navbar, footer {
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        max-width: 640px;
+    }
+
+    footer {
+        margin-top: auto;
+    } */
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 980px) {
+    
+}
