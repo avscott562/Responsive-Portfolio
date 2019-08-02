@@ -233,23 +233,12 @@ footer {
         width: 100%;
         max-width: 470px;
     }
-/* 
-    .main, .mainContent, .headerContent, .name, .navbar, footer {
-        margin-right: 0;
-        margin-left: 0;
-        width: 100%;
-        max-width: 640px;
-    }
-
-    footer {
-        margin-top: auto;
-    } */
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 641px) and (max-width: 768px) {
     
-    /* .headerContent {
-        display: block;
+    .headerContent {
+        display: inline-block;
         width: 100%;
         max-width: 768px;
     }
@@ -257,37 +246,46 @@ footer {
     .header {
         margin: 0;
         margin-bottom: 100px;
+        height: 72px;
     }
 
     .name, .navBar {
-        float: none;
-        text-align: center;
-        padding-left: 0;
-        padding-right: 0;
-        width: 100%;
+        padding-left: 0; 
         margin: 0;
         max-width: 768px;
     }
 
     .name {
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-right: 0;
+        width: 30%;
     }
 
     .navBar {
+        text-align: right;
         background-color: #ffffff;
-        padding-bottom: 10px;
-    }
-
-    .navLink {
-        margin: 0;
+        padding: 25px 0;
+        padding-right: 5px;
+        width: 68%;
     }
 
     .main, input {
         width: 100%;
         max-width: 768px;
-    } */
+    }
 }
+
+    .main {
+        width: 100%;
+        max-width: 660px;
+        padding: 20px;
+    }
+
+    .nameBox, .emailBox, .messageBox {
+        width: 100%;
+        max-width: 630px;
+    }
 
 @media only screen and (max-width: 980px) {
     
