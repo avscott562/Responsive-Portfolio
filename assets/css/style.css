@@ -225,17 +225,31 @@ footer {
 
     .main {
         width: 100%;
-        max-width: 500px;
+        max-width: 450px;
         padding: 20px;
+    }
+
+    #mainImage {
+        float: none;
+        width: 440px;
+        height: 440px;
+        margin-bottom: 10px;
+    }
+
+    .text {
+        clear: none;
+        overflow: hidden;
+        width: 400px;
+        padding-right: 10px;
     }
 
     .nameBox, .emailBox, .messageBox {
         width: 100%;
-        max-width: 470px;
+        max-width: 420px;
     }
 }
 
-@media only screen and (min-width: 641px) and (max-width: 768px) {
+/* @media only screen and (min-width: 641px) and (max-width: 768px) {
     
     .headerContent {
         display: inline-block;
@@ -318,4 +332,4 @@ footer {
         width: 100%;
         max-width: 420px;
     }
-}
+} */
