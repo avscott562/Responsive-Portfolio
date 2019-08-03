@@ -289,4 +289,33 @@ footer {
 
 @media only screen and (min-width: 769px) and (max-width: 980px) {
     
+    .header {
+        height: 70px;
+        margin: 0 auto 50px auto;
+    }
+    
+    .headerContent {
+        width: 100%;
+        max-width: 960px;
+    }
+
+    .name {
+        margin-left: 76px;
+        padding: 25px;
+    }
+
+    .navBar {
+        padding: 25px;
+    }
+
+    .main {
+        width: 100%;
+        max-width: 450px;
+        margin-left: 76px;
+    }
+
+    .nameBox, .emailBox, .messageBox {
+        width: 100%;
+        max-width: 420px;
+    }
 }
