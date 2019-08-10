@@ -64,7 +64,7 @@ h2 {
     margin: 5px;
 }
 
-a:hover {
+.navLink:hover {
     background: darkslategray;
     padding: 13px;
 }
